@@ -3,7 +3,7 @@ import { Role } from './'
 export function configureFakeBackend() {
     let users = [
         { id: 1, username: 'admin', password: 'admin', firstName: 'Admin',     lastName: 'User',      result: '',    role: Role.Admin },
-        { id: 2, username: 'user1', password: 'test1234', firstName: 'John',   lastName: 'Smith',     result : '1',  role: Role.User },
+        { id: 2, username: 'user1', password: 'test1234', firstName: 'John',   lastName: 'Smith',     result : '9',  role: Role.User },
         { id: 3, username: 'user2', password: 'test1234', firstName: 'Arnold', lastName: 'Smith',     result: '7',   role: Role.User },
         { id: 4, username: 'user3', password: 'test1234', firstName: 'Miki',   lastName: 'Thomson',   result: '4',   role: Role.User },
         { id: 5, username: 'user4', password: 'test1234', firstName: 'Nika',   lastName: 'Leps',      result: '8 ',  role: Role.User },
